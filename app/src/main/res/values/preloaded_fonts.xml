@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alice</item>
+        <item>@font/antic</item>
+        <item>@font/bungee</item>
+        <item>@font/caladea</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_thin</item>
+    </array>
+</resources>

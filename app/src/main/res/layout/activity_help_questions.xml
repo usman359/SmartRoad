@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    tools:context=".HomeFragment">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/row1">
+
+
+        <TextView
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is SmartRoad?"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_slab"/>
+
+
+        <ImageView
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/arrow1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/baseline_arrow_forward_24_2"/>
+
+
+        <View
+            android:id="@+id/line1"
+            android:layout_marginTop="20dp"
+            android:layout_width="310dp"
+            android:layout_height="1.8dp"
+            android:layout_below="@+id/arrow1"
+            android:background="@color/grey"
+            android:layout_alignParentRight="true"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_below="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/row3">
+
+
+        <TextView
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What if I get into an accident while I am taking photos of roads?"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_slab"/>
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/arrow2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/baseline_arrow_forward_24_2"/>
+
+
+        <View
+            android:id="@+id/line3"
+            android:layout_marginTop="20dp"
+            android:layout_width="310dp"
+            android:layout_height="1.8dp"
+            android:layout_below="@+id/arrow2"
+            android:background="@color/grey"
+            android:layout_alignParentRight="true"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,341 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp">
+
+
+    <RelativeLayout
+        android:id="@+id/homepic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/titleImage"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@drawable/homepic"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            />
+
+
+
+        <TextView
+            android:id="@+id/headingImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMARTROAD"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto"/>
+
+        <TextView
+            android:id="@+id/headingImage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headingImage"
+            android:text="The future of traffic sign placement"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto"/>
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/homepic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/row1">
+
+        <ImageView
+            android:id="@+id/takephotofromcamera"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/ic_baseline_camera_alt_24"/>
+
+        <TextView
+            android:id="@+id/takephotofromcameratext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/takephotofromcamera"
+            android:layout_marginStart="30dp"
+            android:text="Take photo from camera"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto"/>
+
+
+        <ImageView
+            android:id="@+id/arrow1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/baseline_arrow_forward_24_2"/>
+
+
+        <View
+            android:id="@+id/line1"
+            android:layout_marginTop="20dp"
+            android:layout_width="310dp"
+            android:layout_height="1.8dp"
+            android:layout_below="@+id/arrow1"
+            android:background="@color/grey"
+            android:layout_alignParentRight="true"
+
+            />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/row1"
+            android:id="@+id/row2">
+
+            <ImageView
+                android:id="@+id/selectimagefromgallery"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_baseline_add_photo_alternate_24" />
+
+            <TextView
+                android:id="@+id/selectimagefromgallerytext"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/selectimagefromgallery"
+                android:layout_marginStart="30dp"
+                android:text="Upload photo from gallery"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+
+            <ImageView
+                android:id="@+id/arrow2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/baseline_arrow_forward_24_2"/>
+
+
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_width="310dp"
+                android:layout_height="1.8dp"
+                android:layout_below="@+id/arrow2"
+                android:background="@color/grey"
+                android:layout_alignParentRight="true"
+
+                />
+
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/row2"
+                android:id="@+id/row3">
+
+                <ImageView
+                    android:id="@+id/takevideofromcamera"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/baseline_video_camera_front_24" />
+
+                <TextView
+                    android:id="@+id/takevideofromcameratext"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/takevideofromcamera"
+                    android:layout_marginStart="30dp"
+                    android:text="Take video from camera"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto"/>
+
+
+                <ImageView
+                    android:id="@+id/arrow3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/baseline_arrow_forward_24_2"/>
+
+
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_width="310dp"
+                    android:layout_height="1.8dp"
+                    android:layout_below="@+id/arrow3"
+                    android:background="@color/grey"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_below="@+id/row3"-->
+<!--        android:id="@+id/row4">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/uploadvideofromgallery"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:background="@drawable/baseline_video_camera_front_24" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/uploadvideofromgallerytext"-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_toRightOf="@+id/uploadvideofromgallery"-->
+<!--            android:layout_marginStart="30dp"-->
+<!--            android:text="Upload video from gallery"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:fontFamily="@font/roboto"/>-->
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/arrow4"-->
+<!--            android:layout_width="25dp"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:background="@drawable/baseline_arrow_forward_24_2"/>-->
+
+
+<!--        <View-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_width="310dp"-->
+<!--            android:layout_height="1.8dp"-->
+<!--            android:layout_below="@+id/arrow4"-->
+<!--            android:background="@color/grey"-->
+<!--            android:layout_alignParentRight="true" />-->
+
+<!--    </RelativeLayout>-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/row3"
+                    android:id="@+id/row5">
+
+                    <ImageView
+                        android:id="@+id/viewpredictedresults"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_online_prediction_24" />
+
+                    <TextView
+                        android:id="@+id/viewpredictedresultstext"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/viewpredictedresults"
+                        android:layout_marginStart="30dp"
+                        android:text="View predicted traffic signs"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto"/>
+
+
+                    <ImageView
+                        android:id="@+id/arrow5"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/baseline_arrow_forward_24_2"/>
+
+
+                    <View
+                        android:layout_marginTop="20dp"
+                        android:layout_width="310dp"
+                        android:layout_height="1.8dp"
+                        android:layout_below="@+id/arrow5"
+                        android:background="@color/grey"
+                        android:layout_alignParentRight="true" />
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/row5"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/aroundyoutext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Around you"
+                        android:textSize="18dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/roboto"/>
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/google_maps1"
+                        android:layout_below="@+id/aroundyoutext"
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="0dp"
+                        android:layout_marginBottom="50dp">
+
+
+                        <fragment
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:id="@+id/google_map"
+                            android:layout_marginBottom="0dp"
+                            android:name="com.google.android.gms.maps.SupportMapFragment"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+</ScrollView>

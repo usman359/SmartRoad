@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "915053929688",
+    "firebase_url": "https://smart-road-eb32f-default-rtdb.firebaseio.com",
+    "project_id": "smart-road-eb32f",
+    "storage_bucket": "smart-road-eb32f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915053929688:android:6bd8a358b916c5fc1663ad",
+        "android_client_info": {
+          "package_name": "com.ass2.smart_road"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915053929688-dad93kj48mr35bdibso5n30ml1vi0vm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ass2.smart_road",
+            "certificate_hash": "088245bcbfa7cdbbb4a678224156263850026782"
+          }
+        },
+        {
+          "client_id": "915053929688-mg5btm8v6m29gcdb8gu6o1l9hhl2p4g3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ass2.smart_road",
+            "certificate_hash": "4cdf0f30b7045f7dcb8ed63f98b5ede737de0036"
+          }
+        },
+        {
+          "client_id": "915053929688-09mv63fp1kpkhcpb8l95h50i2rrj21l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtpuXR4aX_hcvoaOty0WgefuMrMc1Ts8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915053929688-09mv63fp1kpkhcpb8l95h50i2rrj21l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SmartRoad</string>
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+    <string name="country_code">CountryCodeDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="google_m_key">AIzaSyCA3jpkD8QdOV1vj2scwQMS33pzcOOUhV8</string>
+
+    <style name="roundimageview" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">7dp</item>
+        <item name="color">@color/white</item>
+    </style>
+    gallery
+
+    //Headings
+    <string name="heading_one">SmartRoad</string>
+    <string name="heading_two">Take photo from camera</string>
+    <string name="heading_three">Upload image from gallery</string>
+    <string name="heading_fourth">View predicted traffic sign board results</string>
+
+    //Description
+    <string name="desc_one">Placing Traffic Road Signs</string>
+    <string name="desc_two">Taking photo of non-traffic sign board roads will enable smartroad to predict the optimal traffic sign board</string>
+    <string name="desc_three">Uploading image of non-traffic sign board roads will enable smartroad to predict the optimal traffic sign board</string>
+    <string name="desc_fourth">Viewing predicted records of past traffic sign boards will enable smartroad to manage history</string>
+
+
+</resources>

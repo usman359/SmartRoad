@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto"
+            android:id="@+id/name" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profileImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:civ_border_width="0dp"
+            android:background="@drawable/profile_pic"
+            android:layout_alignParentRight="true"
+            app:civ_border_color="#B8B8B8"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/heading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your account"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_slab"
+                android:id="@+id/youraccount" />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/youraccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal information"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_slab"
+                android:id="@+id/personalinformation" />
+
+
+            <ImageView
+                android:layout_marginTop="-25dp"
+                android:id="@+id/arrow1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignRight="@+id/personalinformation"
+                android:layout_below="@+id/personalinformation"
+                android:background="@drawable/baseline_arrow_forward_24_2"/>
+
+
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/heading2"
+            android:layout_below="@+id/heading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/support"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto"
+                android:text="Support"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/support"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Help"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_slab"
+                android:id="@+id/help" />
+
+
+            <ImageView
+                android:layout_marginTop="-25dp"
+                android:id="@+id/arrow3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignRight="@+id/help"
+                android:layout_below="@+id/help"
+                android:background="@drawable/baseline_arrow_forward_24_2"/>
+
+
+
+            <View
+                android:id="@+id/line2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1.8dp"
+                android:layout_below="@+id/help"
+                android:background="@color/grey"
+                android:layout_alignParentRight="true"
+
+                />
+
+
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:id="@+id/signoutdrawable"
+            android:layout_below="@+id/heading2"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_baseline_logout_24" />
+
+
+
+        <TextView
+            android:fontFamily="@font/roboto_slab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign out"
+            android:textColor="@color/red"
+            android:id="@+id/signout"
+            android:layout_below="@+id/heading2"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

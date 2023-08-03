@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".Activity5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            >
+            <RelativeLayout
+                android:id="@+id/row1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/viewresultsonmap"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_baseline_fmd_good_24" />
+
+                <TextView
+                    android:id="@+id/viewresultsonmaptext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/viewresultsonmap"
+                    android:layout_marginStart="30dp"
+                    android:text="Result on map"
+                    android:textSize="18dp"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/arrow1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/baseline_arrow_forward_24_2" />
+
+                <View
+                    android:id="@+id/line1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="310dp"
+                    android:layout_height="1.8dp"
+                    android:layout_below="@+id/arrow1"
+                    android:background="@color/grey"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/row2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/viewpredictedtrafficsignboard"
+                    android:layout_centerVertical="true"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_baseline_follow_the_signs_24" />
+
+                <TextView
+                    android:id="@+id/viewpredictedtrafficsignboardtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/viewpredictedtrafficsignboard"
+                    android:layout_marginStart="30dp"
+                    android:text="Predicted traffic sign"
+                    android:textSize="18dp"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/arrow2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/baseline_arrow_forward_24_2" />
+
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_width="310dp"
+                    android:layout_height="1.8dp"
+                    android:layout_below="@+id/arrow2"
+                    android:background="@color/grey"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            >
+            <Button
+                android:layout_margin="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Save"
+                android:id="@+id/saveResults"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </Button>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

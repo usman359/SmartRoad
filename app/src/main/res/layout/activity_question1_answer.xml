@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    tools:context=".HomeFragment">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/row1">
+
+
+        <TextView
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is SmartRoad?"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_slab"/>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/question"
+            android:id="@+id/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SmartRoad is an android application that enables the traffic authorities in placing the traffic sign boards in an automated way. Previously, the manual way of putting traffic sign boards on roads was adopted by the traffic authorites but now by the help of this android application the traffic authorites can easily put the traffic sign board on roads. The android application will provide the best optimal traffic sign board for the road that is captured by the user. "
+            android:textSize="18dp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_slab"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

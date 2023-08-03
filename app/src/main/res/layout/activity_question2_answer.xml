@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    tools:context=".HomeFragment">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/row1">
+
+
+        <TextView
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What if I get into an accident while I am taking photos of roads?"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_slab"/>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/question"
+            android:id="@+id/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.    When taking photos of roads make sure to take it very carefully and save yourself from traffic.
+            \n2.    Make photo of roads where you think a road sign needs to be present.
+            \n3.    Avoid safety of your mobile phone while taking images/photos."
+            android:textSize="18dp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_slab"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
